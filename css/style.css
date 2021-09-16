@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "icons";
+  src: url("../fonts/icons.eot?3t1aq7");
+  src: url("f../onts/icons.eot?3t1aq7#iefix") format("embedded-opentype"),
+    url("../fonts/icons.ttf?3t1aq7") format("truetype"),
+    url("../fonts/icons.woff?3t1aq7") format("woff"),
+    url("../fonts/icons.svg?3t1aq7#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.top-left {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+	background-color: beige;
+
+}
+.top-right {
+  width: 60%;
+}
+
+.top-left img {
+  width: 100%;
+	filter: blur(1px);
+}
+
+.person h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  margin-bottom: 25px;
+}
+
+.person span {
+  color: cornflowerblue;
+}
+
+.style-left {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.icons i {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid transition;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s;
+  color: dodgerblue;
+}
+
+.icons i:hover {
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+  color: #fff;
+}
+
+/*right*/
+.top-right {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 60px;
+}
+.top-right h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.spec-info {
+	margin-bottom: 35px;
+}
+.spec-info h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.spec-info p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.spec-info ul {
+  margin-left: 50px;
+}
+.spec-info li {
+  list-style-type: disc;
+	padding-left: 20px;
+}
+
